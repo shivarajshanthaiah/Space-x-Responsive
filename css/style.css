@@ -97,7 +97,8 @@ section {
 
 .section-inner {
   position: absolute;
-  bottom: 200px;
+  top: 270px;
+  bottom: 200px; 
   left: 150px;
   max-width: 560px;
 }
@@ -441,6 +442,7 @@ footer ul li a:hover {
 
 @media (max-width: 600px) {
   .section-inner {
+    top: 100px;
     bottom: 75px;
     left: 20px;
   }
@@ -477,4 +479,5 @@ footer ul li a:hover {
   .stats div {
     margin-bottom: 20px;
   }
+
 }
